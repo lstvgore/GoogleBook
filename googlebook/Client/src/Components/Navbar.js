@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 
-
-
 function Navbar() {
 
 
@@ -11,6 +9,9 @@ function Navbar() {
        <>
        <nav className="navbar">
            <div className="navbar-container">
+           <Link to="/" className="navbar-logo">
+                Google Book <div/>  
+            </Link>
             <ul className="nav-menu active">
                 <li className='nav-item'>
                     <Link to='/' className='nav-links'>

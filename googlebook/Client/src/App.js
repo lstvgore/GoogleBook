@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <Router>
+      <div className="App">
       <Navbar />
       <Switch>
         <Route path='/' exact component=
@@ -14,6 +15,7 @@ function App() {
         <Route path='/Saved' exact component=
         {Saved} />
       </Switch>
+      </div>
     </Router>
     
   );
